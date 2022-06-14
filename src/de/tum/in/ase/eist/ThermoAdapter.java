@@ -10,4 +10,5 @@ public class ThermoAdapter implements ThermoInterface {
     public double getTempC() {
         return (thermo.getFahrenheitTemperature() - 32.0) * 5.0 / 9.0;
     }
+
 }
